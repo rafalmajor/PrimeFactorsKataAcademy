@@ -13,4 +13,8 @@ namespace PrimeFactorsKataAcademy
             Assert.Equal(new List<int>(), PrimeFactors.Get(1));
         }
     }
+
+    public class PrimeFactors
+    {
+    }
 }
