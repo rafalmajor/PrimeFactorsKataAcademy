@@ -7,18 +7,16 @@ namespace PrimeFactorsKataAcademy
         public static List<int> Get(int number)
         {
             var factors = new List<int>();
-            if (number > 1)
+            int divisor = 2;
+            while (number > 1)
             {
-                while (number % 2 == 0)
+                while (number % divisor == 0)
                 {
-                    factors.Add(2);
-                    number /= 2;
+                    factors.Add(divisor);
+                    number /= divisor;
                 }
 
-                if (number > 1)
-                {
-                    factors.Add(number);
-                }
+                divisor++;
             }
 
             return factors;
