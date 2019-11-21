@@ -18,6 +18,7 @@ namespace PrimeFactorsKataAcademy
             Assert.Equal(new List<int> { 7 }, PrimeFactors.Get(7));
             Assert.Equal(new List<int> { 2, 2, 2 }, PrimeFactors.Get(8));
             Assert.Equal(new List<int> { 3, 3 }, PrimeFactors.Get(9));
+            Assert.Equal(new List<int> { 2, 3, 5, 7, 11 }, PrimeFactors.Get(2 * 3 * 5 * 7 * 11));
         }
     }
 }
