@@ -4,7 +4,7 @@ namespace PrimeFactorsKataAcademy
 {
     public class PrimeFactors
     {
-        public static IEnumerable<int> Get(int i)
+        public static List<int> Get(int number)
         {
             throw new System.NotImplementedException();
         }
