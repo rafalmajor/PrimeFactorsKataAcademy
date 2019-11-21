@@ -9,7 +9,7 @@ namespace PrimeFactorsKataAcademy
             var factors = new List<int>();
             if (number > 1)
             {
-                if (number % 2 == 0)
+                while (number % 2 == 0)
                 {
                     factors.Add(2);
                     number /= 2;
