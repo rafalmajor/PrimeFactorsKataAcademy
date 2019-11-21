@@ -6,7 +6,13 @@ namespace PrimeFactorsKataAcademy
     {
         public static List<int> Get(int number)
         {
-            return new List<int>();
+            var factors = new List<int>();
+            if (number > 1)
+            {
+                factors.Add(2);
+            }
+
+            return factors;
         }
     }
 }
