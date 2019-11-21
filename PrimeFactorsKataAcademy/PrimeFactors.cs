@@ -6,7 +6,7 @@ namespace PrimeFactorsKataAcademy
     {
         public static List<int> Get(int number)
         {
-            throw new System.NotImplementedException();
+            return new List<int>();
         }
     }
 }
